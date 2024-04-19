@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "370273254457",
+    "firebase_url": "https://pmrtask-41679-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pmrtask-41679",
+    "storage_bucket": "pmrtask-41679.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370273254457:android:c4bd9f444e794ef150a1e8",
+        "android_client_info": {
+          "package_name": "com.example.pmrtask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-P-WI7vAxM2t0eUJWdcYvhakMF4wMVDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

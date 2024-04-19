@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".Registro_pax"
+    android:background="@drawable/login_fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO PASAJERO"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        />
+    <EditText
+        android:id="@+id/vuelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Numero de vuelo"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:maxLines="1"/>
+    <EditText
+        android:id="@+id/nombrepax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre Pasajero"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:singleLine="true"
+        android:maxLength="30"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:maxLength="100"
+        android:gravity="top|start"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <Button
+        android:id="@+id/buttonregistropax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Registrar pasajero"/>
+
+
+
+</LinearLayout>
